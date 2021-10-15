@@ -34,7 +34,7 @@ a {
 	position: relative;
 	z-index: 1;
 }
-ul {
+ul { 
 	display: flex;
 }
 li {
@@ -582,4 +582,60 @@ footer .footer-wrapper .copyright {
 	.take-care-section::after, .our-number-section::before{
 		content: none;
 	}
+}
+/* ipad */
+@media (min-width: 768px) and (max-width: 1024px){
+
+.header-content .left-box h2 {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'roboto-regular';
+    width: 250px;
+}
+.header-content .left-box p {
+    font-size: 13px;
+    max-width: 250px;
+    color: #fff;
+    font-family: 'roboto-regular';
+    line-height: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.right-box img {
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    right: 52px;
+}
+.container {
+	
+    width: 100%;
+	max-width: 768px;
+    margin: 0 auto;
+}
+.blog-section .blog-list .blog-item .blog-img img {
+    height: 175px;
+    width: 100%;
+}
+.comments-section .comments-list .comments-carousel .arrows {
+	right: 0;
+}
+.subscibe-section .subscribe-wrapper img {
+	right:0;
+}
+.subscibe-section .subscribe-wrapper img{
+	width: 300px;
+	height: 300px;
+}
+.header-content .left-box a {
+    width: 115px;
+    height: 60px;
+    font-size: 15px;
+}
+.our-number-section .our-number-wrapper .left-box {
+    padding: 20px;
+}
+.header-content .left-box {
+    padding: 20px;
+}
 }
