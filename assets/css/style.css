@@ -639,3 +639,37 @@ footer .footer-wrapper .copyright {
     padding: 20px;
 }
 }
+@media (min-width: 360px) and (max-width: 640px){
+.app-wrapper {
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+.right-box img {
+		width: 467px;
+		right: 49px;
+}
+.subscibe-section .subscribe-wrapper img {
+		right: 0;
+}
+.comments-section .comments-list .comments-carousel .arrows {
+	right: 0;
+}
+}
+@media (min-width: 280px) and (max-width: 653px){
+	.app-wrapper {
+		width: auto;
+		height: auto;
+		display: inline-block;
+	}
+	.right-box img {
+			width: 467px;
+			right: 49px;
+	}
+	.subscibe-section .subscribe-wrapper img {
+			right: 0;
+	}
+	.comments-section .comments-list .comments-carousel .arrows {
+		right: 0;
+	}
+}
